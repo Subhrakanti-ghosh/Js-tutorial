@@ -35,3 +35,7 @@ const myFunction = function(){
 console.log(typeof anotherId);
 
 // https://262.ecma-international.org/5.1/#sec-11.4.3
+
+//++++++++++++++++++++++++
+//Stack(primitive) -> only creates the shallow copy, so the value will not be changed
+// Heap(non primitive) -> call by reference, it can change the value.
